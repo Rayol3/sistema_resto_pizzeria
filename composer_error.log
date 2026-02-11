@@ -1,0 +1,26 @@
+Loading composer repositories with package information
+Updating dependencies
+Your requirements could not be resolved to an installable set of packages.
+
+  Problem 1
+    - maatwebsite/excel[3.1.28, ..., 3.1.30] require phpoffice/phpspreadsheet 1.16.* -> satisfiable by phpoffice/phpspreadsheet[1.16.0].
+    - maatwebsite/excel[3.1.67, ..., 3.1.x-dev] require phpoffice/phpspreadsheet ^1.30.0 -> satisfiable by phpoffice/phpspreadsheet[1.30.0, 1.30.1, 1.30.2, 1.30.x-dev].
+    - maatwebsite/excel[3.1.65, ..., 3.1.66] require phpoffice/phpspreadsheet ^1.29.12 -> satisfiable by phpoffice/phpspreadsheet[1.29.12, ..., 1.30.x-dev].
+    - maatwebsite/excel[3.1.63, ..., 3.1.64] require phpoffice/phpspreadsheet ^1.29.9 -> satisfiable by phpoffice/phpspreadsheet[1.29.9, ..., 1.30.x-dev].
+    - maatwebsite/excel 3.1.62 requires phpoffice/phpspreadsheet ^1.29.7 -> satisfiable by phpoffice/phpspreadsheet[1.29.7, ..., 1.30.x-dev].
+    - maatwebsite/excel[3.1.60, ..., 3.1.61] require phpoffice/phpspreadsheet ^1.29.4 -> satisfiable by phpoffice/phpspreadsheet[1.29.4, ..., 1.30.x-dev].
+    - maatwebsite/excel 3.1.59 requires phpoffice/phpspreadsheet ^1.29.2 -> satisfiable by phpoffice/phpspreadsheet[1.29.2, ..., 1.30.x-dev].
+    - maatwebsite/excel[3.1.57, ..., 3.1.58] require phpoffice/phpspreadsheet ^1.29.1 -> satisfiable by phpoffice/phpspreadsheet[1.29.1, ..., 1.30.x-dev].
+    - maatwebsite/excel[3.1.31, ..., 3.1.56] require phpoffice/phpspreadsheet ^1.18 -> satisfiable by phpoffice/phpspreadsheet[1.18.0, ..., 1.30.x-dev].
+    - maatwebsite/excel 3.1.27 requires phpoffice/phpspreadsheet ^1.16 -> satisfiable by phpoffice/phpspreadsheet[1.16.0, ..., 1.30.x-dev].
+    - maatwebsite/excel 3.1.26 requires phpoffice/phpspreadsheet ^1.15 -> satisfiable by phpoffice/phpspreadsheet[1.15.0, ..., 1.30.x-dev].
+    - maatwebsite/excel[3.1.0, ..., 3.1.25] require php ^7.0 -> your php version (8.2.12) does not satisfy that requirement.
+    - phpoffice/phpspreadsheet[1.15.0, ..., 1.30.x-dev] require ext-zip * -> it is missing from your system. Install or enable PHP's zip extension.
+    - Root composer.json requires maatwebsite/excel ^3.1 -> satisfiable by maatwebsite/excel[3.1.0, ..., 3.1.x-dev].
+
+To enable extensions, verify that they are enabled in your .ini files:
+    - C:\xampp\php\php.ini
+You can also run `php --ini` in a terminal to see which files are used by PHP in CLI mode.
+Alternatively, you can run Composer with `--ignore-platform-req=ext-zip` to temporarily ignore these required extensions.
+
+Use the option --with-all-dependencies (-W) to allow upgrades, downgrades and removals for packages currently locked to specific versions.
