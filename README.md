@@ -2,6 +2,12 @@
 
 Este es un sistema web completo para la gestión de ventas de una pizzería, desarrollado con el framework Laravel (PHP). Incluye gestión de inventario, ventas, usuarios y reportes.
 
+## Capturas de Pantalla
+
+![Interfaz Principal](public/img/interfaz.png)
+
+![Segunda Interfaz](public/img/interfaz2.png)
+
 ## Requisitos del Sistema
 
 Para ejecutar este proyecto localmente, necesitas tener instalado:
